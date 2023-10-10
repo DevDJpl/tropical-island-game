@@ -1,6 +1,6 @@
 <div align="center">
 
-![Game Banner](https://raw.githubusercontent.com/DevDJpl/DevDJpl/master/images/game-banner.png)
+![Game Banner](https://raw.githubusercontent.com/DevDJpl/tropical-island-game/main/images/game-banner.png)
 
 # Tropical Island Game
 Unity Tropical Island Game
