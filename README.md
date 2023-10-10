@@ -21,8 +21,16 @@ Unity Tropical Island Game
 
 </div>
 
+## Installation
 
-### Dokumentacja Projektowa
+## Usage
 
-:memo: [Dokumentacja Projektowa](https://www.overleaf.com/read/bfckmxvctnwq)
+## Documentaction
+
+:memo: [Project Documentaction](https://www.overleaf.com/read/bfckmxvctnwq)
+
+## Changelog
+
+Please see the [CHANGELOG](CHANGELOG.md) for more information about what has changed recently.
+
 
