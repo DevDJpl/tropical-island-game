@@ -20,3 +20,9 @@ Unity Tropical Island Game
 [![Pull Requests Closed](https://img.shields.io/github/issues-pr-closed/DevDJpl/tropical-island-game.svg)](https://github.com/DevDJpl/tropical-island-game/issues?q=is%3Apr+is%3Aclosed)
 
 </div>
+
+
+### Dokumentacja Projektowa
+
+:memo: [Dokumentacja Projektowa](https://www.overleaf.com/read/bfckmxvctnwq)
+
