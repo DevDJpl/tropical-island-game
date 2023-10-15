@@ -1,6 +1,6 @@
 <div align="center">
 
-![Game Banner](https://raw.githubusercontent.com/DevDJpl/tropical-island-game/main/images/game-banner.png?token=GHSAT0AAAAAACIWMXVOD4PNGBBXIFI2RXMWZJFGSSA)
+![Game Banner](https://i.imgur.com/QTYkV5e.png)
 
 # Tropical Island Game
 Unity Tropical Island Game
