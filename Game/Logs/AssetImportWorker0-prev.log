@@ -15,7 +15,7 @@ D:/szkola/tropical-island-game/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59011
+57085
 Successfully changed project path to: D:/szkola/tropical-island-game/Game
 D:/szkola/tropical-island-game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/szkola/tropical-island-game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12576] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 3236332417 [EditorId] 3236332417 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SO6R3VQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12160] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 3467305968 [EditorId] 3467305968 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SO6R3VQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12576] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 3236332417 [EditorId] 3236332417 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SO6R3VQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12160] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 3467305968 [EditorId] 3467305968 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SO6R3VQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
-Refreshing native plugins compatible for Editor in 7.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path D:/Program Files/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005234 seconds.
-- Loaded All Assemblies, in  0.399 seconds
+Registered in 0.004741 seconds.
+- Loaded All Assemblies, in  0.647 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.289 seconds
-Domain Reload Profiling: 688ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.327 seconds
+Domain Reload Profiling: 974ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (165ms)
-		LoadAssemblies (124ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (146ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (144ms)
+		AnalyzeDomain (376ms)
+			TypeCache.Refresh (375ms)
+				TypeCache.ScanAssembly (357ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (290ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (328ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (224ms)
+		SetupLoadedEditorAssemblies (250ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (148ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,85 +115,56 @@ Domain Reload Profiling: 688ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.675 seconds
-Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.837 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.600 seconds
-Domain Reload Profiling: 1274ms
-	BeginReloadAssembly (169ms)
+- Finished resetting the current domain, in  0.691 seconds
+Domain Reload Profiling: 1527ms
+	BeginReloadAssembly (201ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (414ms)
-		LoadAssemblies (321ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (434ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (193ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (153ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (600ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (177ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (691ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (438ms)
+		SetupLoadedEditorAssemblies (502ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (340ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (29.6 KB). Loaded Objects now: 3578.
-Memory consumption went from 137.0 MB to 137.0 MB.
-Total: 5.143700 ms (FindLiveObjects: 0.490400 ms CreateObjectMapping: 0.527500 ms MarkObjects: 4.009500 ms  DeleteObjects: 0.114000 ms)
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (29.6 KB). Loaded Objects now: 3592.
+Memory consumption went from 141.2 MB to 141.2 MB.
+Total: 4.595900 ms (FindLiveObjects: 0.621400 ms CreateObjectMapping: 0.452600 ms MarkObjects: 3.455700 ms  DeleteObjects: 0.064600 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 395991.841450 seconds.
-  path: Assets/CartoonSummerBeach/Prefab/Sand_01.prefab
-  artifactKey: Guid(946f190fb1147214da08c54fb1223858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Prefab/Sand_01.prefab using Guid(946f190fb1147214da08c54fb1223858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cf90df0bddaa8028cb0ca125bf2962') in 0.272343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3587.
-Memory consumption went from 92.7 MB to 92.6 MB.
-Total: 3.604900 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.295700 ms MarkObjects: 2.984200 ms  DeleteObjects: 0.024700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -209,382 +180,92 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 188.592794 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(6835bd2a560053a46889f7bc44cddc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(6835bd2a560053a46889f7bc44cddc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296b62d8bf5ae03df69924cc14e47f9e') in 0.006420 seconds
+  Time since last request: 713225.405147 seconds.
+  path: Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneNightBaked.unity
+  artifactKey: Guid(6e03713508e494343accf4cb924be69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneNightBaked.unity using Guid(6e03713508e494343accf4cb924be69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0323919deda04e6813fd9f9d0c4c048f') in 0.045526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 445.534331 seconds.
+  path: Assets/CartoonSummerBeach/DemoScene/Animation/Boat_02.controller
+  artifactKey: Guid(52cf4d2e61d5d79418cd18c2424a3243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonSummerBeach/DemoScene/Animation/Boat_02.controller using Guid(52cf4d2e61d5d79418cd18c2424a3243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6efe8397ea0299f4d7153968e54d8d') in 0.023079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 264.526817 seconds.
+  path: Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneDay_BakedSettings.lighting
+  artifactKey: Guid(56447301329989e44a6dfb4db7c69805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneDay_BakedSettings.lighting using Guid(56447301329989e44a6dfb4db7c69805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '844918fc17cd994258f0090a13315b21') in 0.002031 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 9.830286 seconds.
-  path: Assets/menu
-  artifactKey: Guid(caed3d0434b19b54098fff2fc0c806ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menu using Guid(caed3d0434b19b54098fff2fc0c806ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faa374a6299ffaa514210f1399ea4d1') in 0.000613 seconds
+  Time since last request: 3.879546 seconds.
+  path: Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneDaySettings.lighting
+  artifactKey: Guid(6b468ebf334c35a4098a413cf5f63202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneDaySettings.lighting using Guid(6b468ebf334c35a4098a413cf5f63202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'e4dd939d688945c4ca540374cae77c3f') in 0.001071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.404264 seconds.
+  path: Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneNightBakedSettings.lighting
+  artifactKey: Guid(b762a62ead34fb4479721061f39bfa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneNightBakedSettings.lighting using Guid(b762a62ead34fb4479721061f39bfa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '73441cb962cdd73b9fe3a630be88a784') in 0.000870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.162273 seconds.
+  path: Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources
+  artifactKey: Guid(da2f48872f9a92c4891c92eeb894eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources using Guid(da2f48872f9a92c4891c92eeb894eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a1646fa01f568d083871809bef2739') in 0.000438 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.056953 seconds.
-  path: Assets/menu/image.png
-  artifactKey: Guid(d5cf75fd330586745ad482d596eb90e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menu/image.png using Guid(d5cf75fd330586745ad482d596eb90e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2229e7fc9cfd0d5f1273f5fb109e04c') in 0.021384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 30.881863 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f59831343c0ffa1563c614994303d0') in 0.000531 seconds
+  Time since last request: 1.218519 seconds.
+  path: Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources/PrototypeCharacter
+  artifactKey: Guid(a1ce50d9e7808af469bfadb4658d5674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources/PrototypeCharacter using Guid(a1ce50d9e7808af469bfadb4658d5674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f7eb35d37df4aa51cecb40197ec959') in 0.000408 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 13.180821 seconds.
-  path: Assets/Scenes/menu.unity
-  artifactKey: Guid(f1e19dabd196cdc4c9692e46f7fe9948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/menu.unity using Guid(f1e19dabd196cdc4c9692e46f7fe9948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93a3705b98e0485c9422ad1213bed80') in 0.000469 seconds
+  Time since last request: 0.700711 seconds.
+  path: Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources/Scripts
+  artifactKey: Guid(0df75a1a8a466774bb9eb15ec1b4d642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources/Scripts using Guid(0df75a1a8a466774bb9eb15ec1b4d642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c04025e612f8b2054de51b656ee6da') in 0.000499 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 35.407922 seconds.
-  path: Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneDay.unity
-  artifactKey: Guid(8a179dc66d70f1b42b9edc9205ca1742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneDay.unity using Guid(8a179dc66d70f1b42b9edc9205ca1742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef1007f9ab4d71b1888db6c0f6b49c0') in 0.000396 seconds
+  Time since last request: 0.843139 seconds.
+  path: Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js
+  artifactKey: Guid(0ab79d7f243824f5d9826bd83522c8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js using Guid(0ab79d7f243824f5d9826bd83522c8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b447dab85173f84fcae9384f61609d') in 0.001059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.340687 seconds.
+  path: Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js
+  artifactKey: Guid(60bca8f58a0b8478e946e6e86658cb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js using Guid(60bca8f58a0b8478e946e6e86658cb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7f134f5e6d4e104a535db2f57482ef') in 0.001341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.342663 seconds.
+  path: Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs
+  artifactKey: Guid(68ec2fe99d1108b9d0006a298d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs using Guid(68ec2fe99d1108b9d0006a298d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1788b1cfee3b2d300b8b8c1042d440') in 0.000441 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.330450 seconds.
-  path: Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneDay_Baked.unity
-  artifactKey: Guid(752d84a9b94035a4391dd37454b62dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/DemoScene/CartoonSummerBeach_DemoSceneDay_Baked.unity using Guid(752d84a9b94035a4391dd37454b62dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb4ecfb3c5f4409a069ab1147f7c80c') in 0.000404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 339.253310 seconds.
-  path: Assets/CartoonSummerBeach/Export/Ball_01.fbx
-  artifactKey: Guid(f72ebe673115a3847af40732a303a71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Ball_01.fbx using Guid(f72ebe673115a3847af40732a303a71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caa7b7848079e8c1f94aa97ff623c1c') in 0.131481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CartoonSummerBeach/Export/FlowerDecoration_02.fbx
-  artifactKey: Guid(4ce58a9e9abae914d86331d497d33759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/FlowerDecoration_02.fbx using Guid(4ce58a9e9abae914d86331d497d33759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f803602c527ec5443f7c3a3cd9fb835f') in 0.015907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CartoonSummerBeach/Export/Carambola_01.fbx
-  artifactKey: Guid(d9085334b00e7774a882133ee706b163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Carambola_01.fbx using Guid(d9085334b00e7774a882133ee706b163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d363d2d5e4903820e5672ab79901d4') in 0.016974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CartoonSummerBeach/Export/Bamboo_Sofa_01.fbx
-  artifactKey: Guid(85e994c0e4a0e2f4d9c484f1fcb8f3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Bamboo_Sofa_01.fbx using Guid(85e994c0e4a0e2f4d9c484f1fcb8f3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692a8624139b90078a40d39a81422315') in 0.015142 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CartoonSummerBeach/Export/IceCream_10.fbx
-  artifactKey: Guid(577cb4b39c334ce40bed31c1d5cbfb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/IceCream_10.fbx using Guid(577cb4b39c334ce40bed31c1d5cbfb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b1f3278e51a61ca514653cab29cdaa') in 0.015588 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/CartoonSummerBeach/Export/Deck_03.FBX
-  artifactKey: Guid(a356473d4f5fdf446a9a436681f55846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Deck_03.FBX using Guid(a356473d4f5fdf446a9a436681f55846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7158823155231704d8230520dbf97070') in 0.016164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CartoonSummerBeach/Export/IceCream_03.fbx
-  artifactKey: Guid(0e202042dd31496449b9c9cf893f5b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/IceCream_03.fbx using Guid(0e202042dd31496449b9c9cf893f5b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7ad9c2bdfb201a1aa82f5d452d152e') in 0.017257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CartoonSummerBeach/Export/Bamboo_Chair_03.fbx
-  artifactKey: Guid(b8c2bd9275d8a064586e26b365e8e827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Bamboo_Chair_03.fbx using Guid(b8c2bd9275d8a064586e26b365e8e827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48584b7fb2fe9f99836bc8f48ea12566') in 0.012447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CartoonSummerBeach/Export/Bamboo_SunBed_01.fbx
-  artifactKey: Guid(6323e4cdd5addea469d673a9ab2cdd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Bamboo_SunBed_01.fbx using Guid(6323e4cdd5addea469d673a9ab2cdd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4c6de27f48da488e039a5169a71ee6') in 0.014193 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/CartoonSummerBeach/Export/IceCream_04.fbx
-  artifactKey: Guid(75d23cf23c780f448bc27e58d4c17d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/IceCream_04.fbx using Guid(75d23cf23c780f448bc27e58d4c17d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cad6e16c242ddad1b5816f25c626ac') in 0.013301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/CartoonSummerBeach/Export/Ball_04.fbx
-  artifactKey: Guid(80ecd9c0e2d184e49a5b90bdd962e5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Ball_04.fbx using Guid(80ecd9c0e2d184e49a5b90bdd962e5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a953846432e96ee55191c03a687db6d') in 0.012500 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CartoonSummerBeach/Export/IceCream_09.fbx
-  artifactKey: Guid(39ff074803e791149b62bbb1bfb022bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/IceCream_09.fbx using Guid(39ff074803e791149b62bbb1bfb022bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b665c78628abef0f02d3793adb33f1') in 0.011863 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CartoonSummerBeach/Export/BeachNet_01.fbx
-  artifactKey: Guid(41a87745ef85e7543bc85418b127890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/BeachNet_01.fbx using Guid(41a87745ef85e7543bc85418b127890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32be3a23601a39012517828dafcffacc') in 0.012430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CartoonSummerBeach/Export/Cocktail_01.fbx
-  artifactKey: Guid(dd684fa63846f3a4e9d1d0e2ce5d58ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Cocktail_01.fbx using Guid(dd684fa63846f3a4e9d1d0e2ce5d58ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c48acf1a1b1af6eac42951911f94f4c') in 0.012945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/CartoonSummerBeach/Export/Bamboo_Mirror_01.fbx
-  artifactKey: Guid(54fc7c4394cc47a4e99c3641f6f20a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Bamboo_Mirror_01.fbx using Guid(54fc7c4394cc47a4e99c3641f6f20a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1fb6f4124253c95423e693acbf0a99') in 0.016337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/CartoonSummerBeach/Export/Hut_02.fbx
-  artifactKey: Guid(fbfe18475feb2bb49a6e423fe99bd104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Hut_02.fbx using Guid(fbfe18475feb2bb49a6e423fe99bd104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1fe1e0700727ebbd95adf54a3f8f42') in 0.015885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CartoonSummerBeach/Export/Hut_03.fbx
-  artifactKey: Guid(8318e603ac7ffbe4297e15d00a01419f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Hut_03.fbx using Guid(8318e603ac7ffbe4297e15d00a01419f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c79d2220f6436eb145d61a2e0c3334') in 0.016558 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CartoonSummerBeach/Export/Hut_04.fbx
-  artifactKey: Guid(a2af39e877291c1459530bb601342fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Hut_04.fbx using Guid(a2af39e877291c1459530bb601342fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56fde7b84ba0fdfa8b76005603bb95f') in 0.015080 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CartoonSummerBeach/Export/Bamboo_Table_01.fbx
-  artifactKey: Guid(beabc2e00c11e9143a3bca4bcc76f031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Bamboo_Table_01.fbx using Guid(beabc2e00c11e9143a3bca4bcc76f031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3197a34fb6cbbbb8cfbece18341eded9') in 0.015449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CartoonSummerBeach/Export/Bamboo_Chair_02.fbx
-  artifactKey: Guid(39c7d2c20dc5fbf4ebcfafd75a8d5c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Bamboo_Chair_02.fbx using Guid(39c7d2c20dc5fbf4ebcfafd75a8d5c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1864c2e53ce91c6bdb65fa01ad9f2a8b') in 0.016134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CartoonSummerBeach/Export/Bamboo_ArmChair_01.fbx
-  artifactKey: Guid(b613d00eeaff6854885acfdd4dc06f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Bamboo_ArmChair_01.fbx using Guid(b613d00eeaff6854885acfdd4dc06f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc1d5b5c9b5123c60bd8cfcb38e97fc') in 0.013953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/CartoonSummerBeach/Export/Bamboo_Screen_01.fbx
-  artifactKey: Guid(a054800a048b4244288929c49fd7d800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Bamboo_Screen_01.fbx using Guid(a054800a048b4244288929c49fd7d800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a2e13d64dfef60bf3ecccec50b1a3d') in 0.018376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CartoonSummerBeach/Export/Cocktail_03.fbx
-  artifactKey: Guid(92bca738fa7afe848bed6994d00658a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Cocktail_03.fbx using Guid(92bca738fa7afe848bed6994d00658a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0caebac48df6a3db535e6ab61251e53c') in 0.015259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/CartoonSummerBeach/Export/Bamboo_Chair_01.fbx
-  artifactKey: Guid(f8d50234dd69ca64c943ce6cf6f77676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Bamboo_Chair_01.fbx using Guid(f8d50234dd69ca64c943ce6cf6f77676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbd82e86cf4fd5027795847a21965aa') in 0.014764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CartoonSummerBeach/Export/Coconut_01.fbx
-  artifactKey: Guid(5cb20f11ee4da0c439f73b4cb61c65b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Coconut_01.fbx using Guid(5cb20f11ee4da0c439f73b4cb61c65b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141d8e8b496f89a4f52c800759370ad2') in 0.017626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CartoonSummerBeach/Export/Fence_02.fbx
-  artifactKey: Guid(12f00c75a42f7db4fbc3683acbc86ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Fence_02.fbx using Guid(12f00c75a42f7db4fbc3683acbc86ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f29390fd37720fa68251adb9a23abbc') in 0.028649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CartoonSummerBeach/Export/FlowerPot_05.fbx
-  artifactKey: Guid(2302f3fd0c3291c4cbb8f4d1143053a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/FlowerPot_05.fbx using Guid(2302f3fd0c3291c4cbb8f4d1143053a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd573d96041a95bad2f016a6376b59c28') in 0.011224 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CartoonSummerBeach/Export/FlowerPot_01.fbx
-  artifactKey: Guid(83dace6720b1db54fa07e46ac829b522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/FlowerPot_01.fbx using Guid(83dace6720b1db54fa07e46ac829b522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbf4019d90396763e51db8d51846dd4') in 0.011245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CartoonSummerBeach/Export/Deck_01.fbx
-  artifactKey: Guid(1a5b833f536102d4d9eb35650f6973af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Deck_01.fbx using Guid(1a5b833f536102d4d9eb35650f6973af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9969e6b5453999968013e0ab572c3960') in 0.016224 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/CartoonSummerBeach/Export/Bamboo_Sink_01.fbx
-  artifactKey: Guid(ce5cf27d289e9424c99c7e8725946b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Bamboo_Sink_01.fbx using Guid(ce5cf27d289e9424c99c7e8725946b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a61404fadca3eebc24e1972061ecfe') in 0.012533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CartoonSummerBeach/Export/Cocktail_02.fbx
-  artifactKey: Guid(962bb99e5da0ba04a89f24b036e05692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Cocktail_02.fbx using Guid(962bb99e5da0ba04a89f24b036e05692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0096ede03de8179f5bb30abd107b6f13') in 0.026794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CartoonSummerBeach/Export/IceCream_05.fbx
-  artifactKey: Guid(176dc432fbf2fb94ba9db29c9478116c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/IceCream_05.fbx using Guid(176dc432fbf2fb94ba9db29c9478116c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c784091e50c525c25733e9e8319edd') in 0.012010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/CartoonSummerBeach/Export/Hut_05.fbx
-  artifactKey: Guid(8469feba37ed5094dbc6d36c963cdc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Hut_05.fbx using Guid(8469feba37ed5094dbc6d36c963cdc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60748cf37f5c4dbf6c13ae46b83517b9') in 0.013893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/CartoonSummerBeach/Export/Banana_01.fbx
-  artifactKey: Guid(01e640781f72f644e9fbeb9e0324ed86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Banana_01.fbx using Guid(01e640781f72f644e9fbeb9e0324ed86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec739a4c6fb69cc32b31f0b2b3321179') in 0.011069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CartoonSummerBeach/Export/Hammock_01.fbx
-  artifactKey: Guid(0f8920c1e06dcbc40929221ec70574cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Hammock_01.fbx using Guid(0f8920c1e06dcbc40929221ec70574cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea16daad6fed1573e7a010427a44349c') in 0.013551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CartoonSummerBeach/Export/IceCream_02.fbx
-  artifactKey: Guid(35f29e0f975630e4f9bcd3153f9da6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/IceCream_02.fbx using Guid(35f29e0f975630e4f9bcd3153f9da6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabb6bbbb9e45be7f2ded4c875b04b75') in 0.011532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/CartoonSummerBeach/Export/FlowerBoat_01.fbx
-  artifactKey: Guid(9cfc5762073a8ac43b4ea8477e9d8731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/FlowerBoat_01.fbx using Guid(9cfc5762073a8ac43b4ea8477e9d8731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af000fa5d657720568defee89bb0838b') in 0.018223 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CartoonSummerBeach/Export/Ball_03.fbx
-  artifactKey: Guid(d3e89ba4038c3724a98f3eddb24a2f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Ball_03.fbx using Guid(d3e89ba4038c3724a98f3eddb24a2f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3ea7d15f10947d50d078b234735554') in 0.013943 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CartoonSummerBeach/Export/Bottle_03.fbx
-  artifactKey: Guid(ea1bb3c60d739614e86a5fa9d790f13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/Bottle_03.fbx using Guid(ea1bb3c60d739614e86a5fa9d790f13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113ff5bc7bf2d933689762865aca9d39') in 0.013291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CartoonSummerBeach/Export/FlowerDecoration_01.fbx
-  artifactKey: Guid(be5f6c739f71d364ba48af4df2e3bb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CartoonSummerBeach/Export/FlowerDecoration_01.fbx using Guid(be5f6c739f71d364ba48af4df2e3bb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a0e478e667f0fa57c549f36729b41c') in 0.012096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Operacja We/Wy zosta³a przerwana z powodu zakoñczenia w¹tku lub ¿¹dania aplikacji.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
