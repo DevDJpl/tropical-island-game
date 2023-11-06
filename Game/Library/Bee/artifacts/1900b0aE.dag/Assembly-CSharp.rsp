@@ -354,6 +354,7 @@
 -analyzer:"D:/Program Files/2022.3.11f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/CartoonSummerBeach/DemoScene/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs"
 "Assets/IslandGenerator/IslandGenerator.cs"
+"Assets/Scripts/Menus/ExitConfirmationMenu.cs"
 -langversion:9.0
 
 /deterministic
