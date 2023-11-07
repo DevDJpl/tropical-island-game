@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/wyspa-czerwona.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/wyspa-2.unity
+    guid: f91a92ef80276144fbb03ad9a3b66c2d
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: f1e19dabd196cdc4c9692e46f7fe9948
+  - enabled: 1
+    path: Assets/Scenes/IslandsMenu.unity
+    guid: 43875749c25de324e82c7daa61aa3242
+  - enabled: 1
+    path: Assets/Scenes/ExitConfirmationMenu.unity
+    guid: 7668374dbce7ed04bb2dd5ac3111794a
   m_configObjects: {}
