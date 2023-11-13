@@ -5,14 +5,35 @@ using UnityEngine.SceneManagement;
 
 public class selectisland : MonoBehaviour
 {
-    public void Island1()
+    public GameObject island1;
+    public GameObject island2;
+    public bool isChangedTo2 = false;
+
+    void Start()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -3);
+        island1.SetActive(true);
+        island2.SetActive(false);
+    }
+    public void Arrow()
+    {
+        if(isChangedTo2 == false)
+        {
+            island1.SetActive(false);
+            island2.SetActive(true);
+            isChangedTo2 = true;
+        } else{
+            island1.SetActive(true);
+            island2.SetActive(false);
+            isChangedTo2 = false;
+        }
+    }
+    public void ChoseIsland()
+    {
+        if(isChangedTo2 == false){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -3);
+        } else{
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        }  
     }
 
-    
-    public void Island2()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
-    }
 }
