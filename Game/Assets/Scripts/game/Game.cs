@@ -7,19 +7,32 @@ public class Game : MonoBehaviour
 {
     public GameObject walecNie;
     public GameObject walecTak;
+    public GameObject placbudowy;
     float CurrentBalance;
     float BaseStoreCost;
+    float BaseStoreProfit;
+    float walecTimer = 0;
+    bool StartWalecTimer;
+    bool StartTimer;
 
     public Text CurrentBalanceText;
+
+    float StoreTimer = 4;
+    float CurrentTimer = 0;
+
     // Start is called before the first frame update
     void Start()
     {
         walecTak.SetActive(false);
-        CurrentBalance = 8;
-        BaseStoreCost = 1;
+        placbudowy.SetActive(false);
+        CurrentBalance = 1200;
+        BaseStoreCost = 1000;
+        BaseStoreProfit = 10;
         CurrentBalanceText.text = CurrentBalance.ToString();
+        StartWalecTimer = false;
+        StartTimer = false;
     }
-    
+
     // Update is called once per frame
     void Update()
     {
@@ -33,14 +46,35 @@ public class Game : MonoBehaviour
                 {
                     if (BaseStoreCost > CurrentBalance)
                         return;
-                    walecTak.SetActive(true);
+                    StartWalecTimer = true;
                     walecNie.SetActive(false);
+                    placbudowy.SetActive(true);
                     CurrentBalance = CurrentBalance - BaseStoreCost;
-                    Debug.Log(CurrentBalance);
                     CurrentBalanceText.text = CurrentBalance.ToString();
                 }
             }
         }
+        if (StartTimer)
+        {
+            CurrentTimer += Time.deltaTime;
+            if(CurrentTimer > StoreTimer)
+            {
+                //StartTimer = false;
+                CurrentTimer = 0f;
+                CurrentBalance += BaseStoreProfit;
+                CurrentBalanceText.text = CurrentBalance.ToString();
+            }
+        }
+        if (StartWalecTimer)
+        {
+            walecTimer += Time.deltaTime;
+            if (walecTimer > 4)
+            {
+                StartWalecTimer = false;
+                placbudowy.SetActive(false);
+                walecTak.SetActive(true);
+                StartTimer = true;
+            }
+        }
     }
-
 }
