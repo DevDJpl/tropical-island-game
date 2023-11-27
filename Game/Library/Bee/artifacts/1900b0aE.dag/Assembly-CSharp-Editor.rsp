@@ -368,6 +368,10 @@
 -analyzer:"D:/Program Files/2022.3.11f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Program Files/2022.3.11f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Editor/IslandGenerator/IslandGeneratorEditor.cs"
+"Assets/Piloto Studio/Readme/Scripts/Editor/ReadmeBehaviourEditor.cs"
+"Assets/Piloto Studio/Readme/Scripts/Editor/ReadmeEditor.cs"
+"Assets/Piloto Studio/Readme/Scripts/Editor/ReadmeEditorStyles.cs"
+"Assets/Piloto Studio/Readme/Scripts/Editor/ReadmeHierarchy.cs"
 -langversion:9.0
 
 /deterministic

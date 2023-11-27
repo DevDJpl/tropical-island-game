@@ -6,18 +6,46 @@ using UnityEngine.UI;
 public class Game : MonoBehaviour
 {
     public GameObject walecNie;
+    public GameObject walecNie2;
+    public GameObject walecNieUmbrella;
     public GameObject walecTak;
+    public GameObject walecTakRestaurant;
+    public GameObject walecHouseDoubleLv2;
     public GameObject placbudowy;
+    public GameObject domek;
+    public GameObject domekPrzycisk;
+    public GameObject domekLv2;
+    public GameObject umbrellas;
+    public GameObject upgradeDoubleHouse;
+    public GameObject upgradeDomek;
     float CurrentBalance;
     float BaseStoreCost;
     float BaseStoreProfit;
     float walecTimer = 0;
     bool StartWalecTimer;
     bool StartTimer;
+    float UpgradeDoubleHouseCost;
+    float doubleHouse2Timer = 0;
+    bool StartDoubleHouse2Timer;
+    //Domek
+    float DomekProfit;
+    float domekTimer = 0;
+    bool StartDomekTimer;
+    bool DomekTimer;
+    float CurrentDomekTimer = 0;
+    float UpgradeDomekCost;
+    float domek2Timer = 0;
+    bool StartDomek2Timer;
+    //Umbrellas
+    float UmbrellaProfit;
+    float umbrellaTimer = 0;
+    bool StartUmbrellaTimer;
+    bool UmbrellaTimer;
+    float CurrentUmbrellaTimer = 0;
 
     public Text CurrentBalanceText;
 
-    float StoreTimer = 4;
+    float StoreTimer = 2;
     float CurrentTimer = 0;
 
     // Start is called before the first frame update
@@ -25,12 +53,27 @@ public class Game : MonoBehaviour
     {
         walecTak.SetActive(false);
         placbudowy.SetActive(false);
+        domek.SetActive(false);
+        domekPrzycisk.SetActive(false);
+        umbrellas.SetActive(false);
+        upgradeDoubleHouse.SetActive(false);
+        walecHouseDoubleLv2.SetActive(false);
+        domekLv2.SetActive(false);
+        upgradeDomek.SetActive(false);
         CurrentBalance = 1200;
         BaseStoreCost = 1000;
-        BaseStoreProfit = 10;
+        BaseStoreProfit = 20;
+        DomekProfit = 10;
+        UmbrellaProfit = 30;
+        UpgradeDoubleHouseCost = 1500;
+        UpgradeDomekCost = 1200;
         CurrentBalanceText.text = CurrentBalance.ToString();
         StartWalecTimer = false;
         StartTimer = false;
+        StartDomekTimer = false;
+        DomekTimer = false;
+        StartDoubleHouse2Timer = false;
+        StartDomek2Timer = false;
     }
 
     // Update is called once per frame
@@ -48,9 +91,70 @@ public class Game : MonoBehaviour
                         return;
                     StartWalecTimer = true;
                     walecNie.SetActive(false);
+                    placbudowy.transform.position = new Vector3(379, 83, 467);
                     placbudowy.SetActive(true);
                     CurrentBalance = CurrentBalance - BaseStoreCost;
                     CurrentBalanceText.text = CurrentBalance.ToString();
+                }
+                if (hit.collider.gameObject == walecNie2)
+                {
+                    if (BaseStoreCost > CurrentBalance)
+                        return;
+                    StartDomekTimer = true;
+                    walecNie2.SetActive(false);
+                    placbudowy.transform.position = new Vector3(360, 83, 532);
+                    placbudowy.SetActive(true);
+                    CurrentBalance = CurrentBalance - BaseStoreCost;
+                    CurrentBalanceText.text = CurrentBalance.ToString();
+                }
+                if (hit.collider.gameObject == walecNieUmbrella)
+                {
+                    if (BaseStoreCost > CurrentBalance)
+                        return;
+                    StartUmbrellaTimer = true;
+                    walecNieUmbrella.SetActive(false);
+                    placbudowy.transform.position = new Vector3(570, 72, 433);
+                    placbudowy.SetActive(true);
+                    CurrentBalance = CurrentBalance - BaseStoreCost;
+                    CurrentBalanceText.text = CurrentBalance.ToString();
+                }
+                if (hit.collider.gameObject == upgradeDoubleHouse)
+                {
+                    if (UpgradeDoubleHouseCost > CurrentBalance)
+                        return;
+                    StartDoubleHouse2Timer = true;
+                    upgradeDoubleHouse.SetActive(false);
+                    placbudowy.transform.position = new Vector3(416, 83, 468);
+                    placbudowy.SetActive(true);
+                    CurrentBalance = CurrentBalance - UpgradeDoubleHouseCost;
+                    CurrentBalanceText.text = CurrentBalance.ToString();
+                }
+                if (hit.collider.gameObject == walecTakRestaurant)
+                {
+                    if(BaseStoreProfit == 50)
+                        return;
+                    upgradeDoubleHouse.SetActive(true);
+                } else {
+                    upgradeDoubleHouse.SetActive(false);
+                }
+                if (hit.collider.gameObject == upgradeDomek)
+                {
+                    if (UpgradeDomekCost > CurrentBalance)
+                        return;
+                    StartDomek2Timer = true;
+                    upgradeDomek.SetActive(false);
+                    placbudowy.transform.position = new Vector3(409, 83, 528);
+                    placbudowy.SetActive(true);
+                    CurrentBalance = CurrentBalance - UpgradeDomekCost;
+                    CurrentBalanceText.text = CurrentBalance.ToString();
+                }
+                if (hit.collider.gameObject == domekPrzycisk)
+                {
+                    if(DomekProfit == 30)
+                        return;
+                    upgradeDomek.SetActive(true);
+                } else {
+                    upgradeDomek.SetActive(false);
                 }
             }
         }
@@ -59,7 +163,6 @@ public class Game : MonoBehaviour
             CurrentTimer += Time.deltaTime;
             if(CurrentTimer > StoreTimer)
             {
-                //StartTimer = false;
                 CurrentTimer = 0f;
                 CurrentBalance += BaseStoreProfit;
                 CurrentBalanceText.text = CurrentBalance.ToString();
@@ -74,6 +177,71 @@ public class Game : MonoBehaviour
                 placbudowy.SetActive(false);
                 walecTak.SetActive(true);
                 StartTimer = true;
+            }
+        }
+        if (StartDoubleHouse2Timer)
+        {
+            doubleHouse2Timer += Time.deltaTime;
+            if (doubleHouse2Timer > 4)
+            {
+                StartDoubleHouse2Timer = false;
+                placbudowy.SetActive(false);
+                walecHouseDoubleLv2.SetActive(true);
+                BaseStoreProfit = 50;
+            }
+        }//House
+        if (DomekTimer)
+        {
+            CurrentDomekTimer += Time.deltaTime;
+            if(CurrentDomekTimer > StoreTimer)
+            {
+                CurrentDomekTimer = 0f;
+                CurrentBalance += DomekProfit;
+                CurrentBalanceText.text = CurrentBalance.ToString();
+            }
+        }
+        if (StartDomekTimer)
+        {
+            domekTimer += Time.deltaTime;
+            if (domekTimer > 4)
+            {
+                StartDomekTimer = false;
+                placbudowy.SetActive(false);
+                domek.SetActive(true);
+                domekPrzycisk.SetActive(true);
+                DomekTimer = true;
+            }
+        }
+        if (StartDomek2Timer)
+        {
+            domek2Timer += Time.deltaTime;
+            if (domek2Timer > 4)
+            {
+                StartDomek2Timer = false;
+                placbudowy.SetActive(false);
+                domekLv2.SetActive(true);
+                DomekProfit = 30;
+            }
+        }//Umbrella
+        if (UmbrellaTimer)
+        {
+            CurrentUmbrellaTimer += Time.deltaTime;
+            if(CurrentUmbrellaTimer > StoreTimer)
+            {
+                CurrentUmbrellaTimer = 0f;
+                CurrentBalance += UmbrellaProfit;
+                CurrentBalanceText.text = CurrentBalance.ToString();
+            }
+        }
+        if (StartUmbrellaTimer)
+        {
+            umbrellaTimer += Time.deltaTime;
+            if (umbrellaTimer > 4)
+            {
+                StartUmbrellaTimer = false;
+                placbudowy.SetActive(false);
+                umbrellas.SetActive(true);
+                UmbrellaTimer = true;
             }
         }
     }

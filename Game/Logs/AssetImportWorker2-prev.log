@@ -15,7 +15,7 @@ D:/szkola/tropical-island-game/Game
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57909
+57438
 Successfully changed project path to: D:/szkola/tropical-island-game/Game
 D:/szkola/tropical-island-game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/szkola/tropical-island-game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7632] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 2263525815 [EditorId] 2263525815 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SO6R3VQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9800] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 3017937378 [EditorId] 3017937378 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SO6R3VQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7632] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 2263525815 [EditorId] 2263525815 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SO6R3VQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9800] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 3017937378 [EditorId] 3017937378 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SO6R3VQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
-Refreshing native plugins compatible for Editor in 7.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path D:/Program Files/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004402 seconds.
-- Loaded All Assemblies, in  0.366 seconds
+Registered in 0.003983 seconds.
+- Loaded All Assemblies, in  0.455 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.258 seconds
-Domain Reload Profiling: 624ms
-	BeginReloadAssembly (116ms)
+- Finished resetting the current domain, in  0.297 seconds
+Domain Reload Profiling: 752ms
+	BeginReloadAssembly (158ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
+	RebuildCommonClasses (42ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (152ms)
-		LoadAssemblies (115ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (133ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (166ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (259ms)
+	FinalizeReload (297ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (198ms)
+		SetupLoadedEditorAssemblies (225ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (132ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 624ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.642 seconds
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.761 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.550 seconds
-Domain Reload Profiling: 1192ms
-	BeginReloadAssembly (152ms)
+- Finished resetting the current domain, in  0.657 seconds
+Domain Reload Profiling: 1417ms
+	BeginReloadAssembly (167ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (406ms)
-		LoadAssemblies (309ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (505ms)
+		LoadAssemblies (386ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (151ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (551ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (657ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (399ms)
+		SetupLoadedEditorAssemblies (481ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (29.7 KB). Loaded Objects now: 3599.
-Memory consumption went from 141.5 MB to 141.5 MB.
-Total: 2.625300 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.219200 ms MarkObjects: 2.091300 ms  DeleteObjects: 0.050200 ms)
+Unloading 31 unused Assets / (29.6 KB). Loaded Objects now: 3600.
+Memory consumption went from 142.0 MB to 142.0 MB.
+Total: 2.747600 ms (FindLiveObjects: 0.275100 ms CreateObjectMapping: 0.229400 ms MarkObjects: 2.189600 ms  DeleteObjects: 0.052500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,90 +180,146 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 392906.996183 seconds.
-  path: Assets/Ground textures pack/Ground & rocks 03/diffuse.tga
-  artifactKey: Guid(117cca91456049f4692a3becee93522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Ground & rocks 03/diffuse.tga using Guid(117cca91456049f4692a3becee93522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f966d3c42f3fa1af4691b7d9d773b9d') in 0.066270 seconds
+  Time since last request: 194643.080431 seconds.
+  path: Assets/Snowconesolid Assets/Super Beach Pack/Mesh/Island_BendShape.fbx
+  artifactKey: Guid(ef93ce1b7086f99439092a7d70986d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Beach Pack/Mesh/Island_BendShape.fbx using Guid(ef93ce1b7086f99439092a7d70986d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346c0eb5e76c405e249a81ad1950b386') in 0.132137 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 3.483282 seconds.
-  path: Assets/Ground textures pack/Grass 05/diffuse.tga
-  artifactKey: Guid(f0a8168310b10da4faedc474bb26c20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass 05/diffuse.tga using Guid(f0a8168310b10da4faedc474bb26c20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f131dcafe3f607d5e4809ec4cb584c') in 0.020063 seconds
+  Time since last request: 2.593213 seconds.
+  path: Assets/Snowconesolid Assets/Super Beach Pack/Mesh/LifePreserver_Blue.fbx
+  artifactKey: Guid(550dcb701e5187c4db51b23cc7bd52cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Beach Pack/Mesh/LifePreserver_Blue.fbx using Guid(550dcb701e5187c4db51b23cc7bd52cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9530c88bd554609c1ba5f7b58b0681d3') in 0.020925 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 46.566971 seconds.
-  path: Assets/Scenes/menu.unity
-  artifactKey: Guid(f1e19dabd196cdc4c9692e46f7fe9948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/menu.unity using Guid(f1e19dabd196cdc4c9692e46f7fe9948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141d1a9aca80b1cb5691fa8542917af7') in 0.000683 seconds
+  Time since last request: 0.050510 seconds.
+  path: Assets/Snowconesolid Assets/Super Beach Pack/Mesh/LifePreserver_DarkCyan.fbx
+  artifactKey: Guid(f277cf665fa04c344acd1b9eedc529fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Beach Pack/Mesh/LifePreserver_DarkCyan.fbx using Guid(f277cf665fa04c344acd1b9eedc529fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fd404452a72974814416e13af24961') in 0.011021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006444 seconds.
+  path: Assets/Snowconesolid Assets/Super Beach Pack/Mesh/LifePreserver_Green.fbx
+  artifactKey: Guid(856c84cad7bfed945ac9cf0e05c2bc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Beach Pack/Mesh/LifePreserver_Green.fbx using Guid(856c84cad7bfed945ac9cf0e05c2bc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0eebecdc8c520cb7b8ecc684fe12b2') in 0.011987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.027203 seconds.
+  path: Assets/Snowconesolid Assets/Super Beach Pack/Mesh/LifePreserver_Pink.fbx
+  artifactKey: Guid(477a5adf2c4cc1c4e932b3fc23bef118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Beach Pack/Mesh/LifePreserver_Pink.fbx using Guid(477a5adf2c4cc1c4e932b3fc23bef118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffe3984e7264f2fcd7cbef85ef401eb') in 0.016580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.014939 seconds.
+  path: Assets/Snowconesolid Assets/Super Beach Pack/Mesh/LifePreserver_Red.fbx
+  artifactKey: Guid(eff8baad76ef1e848b19deb730e5ebec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Beach Pack/Mesh/LifePreserver_Red.fbx using Guid(eff8baad76ef1e848b19deb730e5ebec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc5650c0f529da6e53192452c780e38') in 0.011956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.961692 seconds.
+  path: Assets/Snowconesolid Assets/Super Beach Pack/Mesh/PalmTree_LongLeavesBend.fbx
+  artifactKey: Guid(350321c747d89b9499c4b78b87a78378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Beach Pack/Mesh/PalmTree_LongLeavesBend.fbx using Guid(350321c747d89b9499c4b78b87a78378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439b8bb6d07c111dbd9eb1ab09e239bf') in 0.064434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 892.049256 seconds.
+  path: Assets/Models/deck-01-new.fbx
+  artifactKey: Guid(20c0aa5b1f4a1ba4eb5a0e0fd8a291c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/deck-01-new.fbx using Guid(20c0aa5b1f4a1ba4eb5a0e0fd8a291c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b921471828e07d7ba2d13f63705b0e') in 0.083514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 804.147390 seconds.
+  path: Assets/Scenes/wyspa-2.unity
+  artifactKey: Guid(f91a92ef80276144fbb03ad9a3b66c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wyspa-2.unity using Guid(f91a92ef80276144fbb03ad9a3b66c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eaf44147ccd8fe7dba9143661be7878') in 0.000952 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 10.009626 seconds.
-  path: Assets/UI/Menus
-  artifactKey: Guid(d4468105b981dd74080e2b6c9a88d3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Menus using Guid(d4468105b981dd74080e2b6c9a88d3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74eebdadeeaa2e03549f4f3de6623936') in 0.000504 seconds
+  Time since last request: 464.333523 seconds.
+  path: Assets/Ghettoish House/Model/Little Tropical House.fbx
+  artifactKey: Guid(676df48086630634182f3eec4c61da09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghettoish House/Model/Little Tropical House.fbx using Guid(676df48086630634182f3eec4c61da09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b2577d0b76299b64bb881d46bd7834') in 0.281467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 272.974011 seconds.
+  path: Assets/Old Water Well/Textures/All_source_textures.psd
+  artifactKey: Guid(2b5c09ede68f6d9499bf704664c92864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Water Well/Textures/All_source_textures.psd using Guid(2b5c09ede68f6d9499bf704664c92864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cd6908d3f8b0873f06b9640a5b6168') in 0.128496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Old Water Well/Textures/old_waterwell_Normal.png
+  artifactKey: Guid(777b885af1cca494daefe15bc1fc7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Water Well/Textures/old_waterwell_Normal.png using Guid(777b885af1cca494daefe15bc1fc7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99eb196f2cf354306e741b0e071f2635') in 0.051472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Old Water Well/Textures/old_waterwell_MetallicSmoothness.png
+  artifactKey: Guid(9959c40881ee81f49a35137d49147f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Water Well/Textures/old_waterwell_MetallicSmoothness.png using Guid(9959c40881ee81f49a35137d49147f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1096d6808ac181aa834e07ed2ee370a') in 0.022586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Old Water Well/Textures/old_waterwell_AO.png
+  artifactKey: Guid(7132783251efa3f4ab92d43b273d6de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Water Well/Textures/old_waterwell_AO.png using Guid(7132783251efa3f4ab92d43b273d6de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7f7a54ebb978baf76d9fe872803082') in 0.021577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.354979 seconds.
+  path: Assets/Old Water Well/Scenes/Demoscene_files
+  artifactKey: Guid(b13dbdb6a6555334d89291cec9478969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Water Well/Scenes/Demoscene_files using Guid(b13dbdb6a6555334d89291cec9478969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a7103a7657592d46d20147c907a8de') in 0.000844 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.407124 seconds.
-  path: Assets/UI/Menus/MainMenu
-  artifactKey: Guid(fc3687202f076e24389e619790756d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Menus/MainMenu using Guid(fc3687202f076e24389e619790756d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bcbc86d8359a89edf6479d643e4c13') in 0.000473 seconds
+  Time since last request: 0.068967 seconds.
+  path: Assets/Old Water Well/Scenes/Demoscene_files/demo_ground.FBX
+  artifactKey: Guid(13f81f94715c6f542ad47ac8c1121f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Water Well/Scenes/Demoscene_files/demo_ground.FBX using Guid(13f81f94715c6f542ad47ac8c1121f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fa40a008c52cb5270dcfb2f9f31762') in 0.024177 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 13.369836 seconds.
-  path: Assets/UI/Menus/MainMenu/MainMenuButtonContinue.png
-  artifactKey: Guid(cb967532e2c582a4f9823c2411e59964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Menus/MainMenu/MainMenuButtonContinue.png using Guid(cb967532e2c582a4f9823c2411e59964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d3383705e69886ff753395f05f7fd5') in 0.016527 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UI/Menus/MainMenu/MainMenuPanel.png
-  artifactKey: Guid(844fc764234568b43b0755aa6a690542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Menus/MainMenu/MainMenuPanel.png using Guid(844fc764234568b43b0755aa6a690542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298295cb409571324bab0f8ac7167cfe') in 0.036830 seconds
+  Time since last request: 0.000118 seconds.
+  path: Assets/Old Water Well/Scenes/Demoscene_files/ground_Diffuse.tga
+  artifactKey: Guid(3664fd29eea4987489c0f28abb8c6a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Water Well/Scenes/Demoscene_files/ground_Diffuse.tga using Guid(3664fd29eea4987489c0f28abb8c6a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0973c9ad71a9895d554ceb53172dfb60') in 0.017011 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/UI/Menus/MainMenu/MainMenuButtonExit.png
-  artifactKey: Guid(983512ad2ea70c0419c3f50bc40b3d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Menus/MainMenu/MainMenuButtonExit.png using Guid(983512ad2ea70c0419c3f50bc40b3d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84adcdaa51565507fae10f93f10cd0a9') in 0.013506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UI/Menus/MainMenu/MainMenuButtonOptions.png
-  artifactKey: Guid(9ab3dd76b3041cb49ba9e46eccc004bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Menus/MainMenu/MainMenuButtonOptions.png using Guid(9ab3dd76b3041cb49ba9e46eccc004bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f461194289747c20cabf70d48878386') in 0.015009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UI/Menus/MainMenu/Zasób 1@16x.png
-  artifactKey: Guid(d4c6cc448c6b43441af6de69abadafb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Menus/MainMenu/Zasób 1@16x.png using Guid(d4c6cc448c6b43441af6de69abadafb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc44c23dd6c75df52eb5f13e1966f379') in 0.018179 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/UI/Menus/MainMenu/MainMenuButtonShop.png
-  artifactKey: Guid(96d2dd96bcbad554e9c10f62add1f6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Menus/MainMenu/MainMenuButtonShop.png using Guid(96d2dd96bcbad554e9c10f62add1f6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c071928a46e555c640af5114a1b96ff') in 0.016636 seconds
+  Time since last request: 0.000107 seconds.
+  path: Assets/Old Water Well/Scenes/Demoscene_files/ground_Normal.tga
+  artifactKey: Guid(b7758bef30ec2b346ab2339c35252ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Water Well/Scenes/Demoscene_files/ground_Normal.tga using Guid(b7758bef30ec2b346ab2339c35252ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3456aca23d7e9256342c8dcfb2fded') in 0.018272 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

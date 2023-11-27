@@ -62,7 +62,10 @@
     <Compile Include="Assets\Scripts\Menus\pausemenu.cs" />
     <Compile Include="Assets\Scripts\Menus\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Menus\selectisland.cs" />
+    <Compile Include="Assets\Piloto Studio\Readme\Scripts\ReadmeBehaviour.cs" />
+    <Compile Include="Assets\Blink\Art\Animals\Stylized\Demo_Animals\DemoData\AnimationDemo.cs" />
     <Compile Include="Assets\IslandGenerator\IslandGenerator.cs" />
+    <Compile Include="Assets\Piloto Studio\Readme\Scripts\Readme.cs" />
     <Compile Include="Assets\CartoonSummerBeach\DemoScene\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\game\Game.cs" />
   </ItemGroup>
@@ -70,9 +73,12 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Piloto Studio\Shaders\SimplyToon_Piloto\Simply Toon.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Ghettoish House\Read me.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Piloto Studio\Shaders\VFX_Piloto\UberShader_Alpha.shader" />
     <None Include="Assets\Snowconesolid Assets\Super Beach Pack\Snowconesolid Assets ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -82,15 +88,20 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Piloto Studio\Shaders\VFX_Piloto\UberFX.shader" />
     <None Include="Assets\Snowconesolid Assets\Super Beach Pack\Super Beach Ball Pack\Snowconesolid Assets ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\CartoonSummerBeach\__ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Piloto Studio\Shaders\VFX_Piloto\UberShader_Additive.shader" />
+    <None Include="Assets\Piloto Studio\Shaders\PBR_Piloto\PBR_UberShader.shader" />
+    <None Include="Assets\Piloto Studio\Shaders\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\3D Haven\Free Fantasy Terrain Textures\Documentation\Version Log.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Piloto Studio\Shaders\VFX_Piloto\Screenspace_Alpha.shader" />
     <None Include="Assets\Crates00\info.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
