@@ -16,8 +16,14 @@ public class Game : MonoBehaviour
     public GameObject domekPrzycisk;
     public GameObject domekLv2;
     public GameObject umbrellas;
-    public GameObject upgradeDoubleHouse;
     public GameObject upgradeDomek;
+    public GameObject OknoRestaurant1;
+    public GameObject BuyRestaurantLv1;
+    public GameObject OknoRestaurant2;
+    public GameObject upgradeDoubleHouse;
+    public GameObject OknoDomekLv1;
+    public GameObject BuyDomekLv1;
+    public GameObject OknoDomekLv2;
     float CurrentBalance;
     float BaseStoreCost;
     float BaseStoreProfit;
@@ -56,10 +62,12 @@ public class Game : MonoBehaviour
         domek.SetActive(false);
         domekPrzycisk.SetActive(false);
         umbrellas.SetActive(false);
-        upgradeDoubleHouse.SetActive(false);
         walecHouseDoubleLv2.SetActive(false);
         domekLv2.SetActive(false);
-        upgradeDomek.SetActive(false);
+        OknoRestaurant1.SetActive(false);
+        OknoRestaurant2.SetActive(false);
+        OknoDomekLv1.SetActive(false);
+        OknoDomekLv2.SetActive(false);
         CurrentBalance = 1200;
         BaseStoreCost = 1000;
         BaseStoreProfit = 20;
@@ -85,7 +93,7 @@ public class Game : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.gameObject == walecNie)
+                if (hit.collider.gameObject == BuyRestaurantLv1)
                 {
                     if (BaseStoreCost > CurrentBalance)
                         return;
@@ -96,7 +104,7 @@ public class Game : MonoBehaviour
                     CurrentBalance = CurrentBalance - BaseStoreCost;
                     CurrentBalanceText.text = CurrentBalance.ToString();
                 }
-                if (hit.collider.gameObject == walecNie2)
+                if (hit.collider.gameObject == BuyDomekLv1)
                 {
                     if (BaseStoreCost > CurrentBalance)
                         return;
@@ -133,16 +141,15 @@ public class Game : MonoBehaviour
                 {
                     if(BaseStoreProfit == 50)
                         return;
-                    upgradeDoubleHouse.SetActive(true);
+                    OknoRestaurant2.SetActive(true);
                 } else {
-                    upgradeDoubleHouse.SetActive(false);
+                    OknoRestaurant2.SetActive(false);
                 }
                 if (hit.collider.gameObject == upgradeDomek)
                 {
                     if (UpgradeDomekCost > CurrentBalance)
                         return;
                     StartDomek2Timer = true;
-                    upgradeDomek.SetActive(false);
                     placbudowy.transform.position = new Vector3(409, 83, 528);
                     placbudowy.SetActive(true);
                     CurrentBalance = CurrentBalance - UpgradeDomekCost;
@@ -152,9 +159,21 @@ public class Game : MonoBehaviour
                 {
                     if(DomekProfit == 30)
                         return;
-                    upgradeDomek.SetActive(true);
+                    OknoDomekLv2.SetActive(true);
                 } else {
-                    upgradeDomek.SetActive(false);
+                    OknoDomekLv2.SetActive(false);
+                }
+                if (hit.collider.gameObject == walecNie)
+                {
+                    OknoRestaurant1.SetActive(true);
+                } else {
+                    OknoRestaurant1.SetActive(false);
+                }
+                if (hit.collider.gameObject == walecNie2)
+                {
+                    OknoDomekLv1.SetActive(true);
+                } else {
+                    OknoDomekLv1.SetActive(false);
                 }
             }
         }
