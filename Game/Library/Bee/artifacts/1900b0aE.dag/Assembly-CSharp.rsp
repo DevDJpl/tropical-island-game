@@ -358,6 +358,7 @@
 "Assets/Piloto Studio/Readme/Scripts/Readme.cs"
 "Assets/Piloto Studio/Readme/Scripts/ReadmeBehaviour.cs"
 "Assets/Scripts/game/Game.cs"
+"Assets/Scripts/game/Game1.cs"
 "Assets/Scripts/Menus/ExitConfirmationMenu.cs"
 "Assets/Scripts/Menus/MainMenu.cs"
 "Assets/Scripts/Menus/pausemenu.cs"

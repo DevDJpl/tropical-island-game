@@ -24,6 +24,8 @@ public class Game : MonoBehaviour
     public GameObject OknoDomekLv1;
     public GameObject BuyDomekLv1;
     public GameObject OknoDomekLv2;
+    public GameObject OknoParasoleLv1;
+    public GameObject BuyParasoleLv1;
     float CurrentBalance;
     float BaseStoreCost;
     float BaseStoreProfit;
@@ -68,6 +70,7 @@ public class Game : MonoBehaviour
         OknoRestaurant2.SetActive(false);
         OknoDomekLv1.SetActive(false);
         OknoDomekLv2.SetActive(false);
+        OknoParasoleLv1.SetActive(false);
         CurrentBalance = 1200;
         BaseStoreCost = 1000;
         BaseStoreProfit = 20;
@@ -115,7 +118,7 @@ public class Game : MonoBehaviour
                     CurrentBalance = CurrentBalance - BaseStoreCost;
                     CurrentBalanceText.text = CurrentBalance.ToString();
                 }
-                if (hit.collider.gameObject == walecNieUmbrella)
+                if (hit.collider.gameObject == BuyParasoleLv1)
                 {
                     if (BaseStoreCost > CurrentBalance)
                         return;
@@ -174,6 +177,12 @@ public class Game : MonoBehaviour
                     OknoDomekLv1.SetActive(true);
                 } else {
                     OknoDomekLv1.SetActive(false);
+                }
+                if (hit.collider.gameObject == walecNieUmbrella)
+                {
+                    OknoParasoleLv1.SetActive(true);
+                } else {
+                    OknoParasoleLv1.SetActive(false);
                 }
             }
         }
