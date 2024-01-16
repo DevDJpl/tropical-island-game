@@ -30,9 +30,9 @@ public class selectisland : MonoBehaviour
     public void ChoseIsland()
     {
         if(isChangedTo2 == false){
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -3);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
         } else{
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +2);
         }  
     }
 
