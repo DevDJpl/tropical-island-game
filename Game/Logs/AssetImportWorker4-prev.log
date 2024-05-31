@@ -1,0 +1,382 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'pl' Physical Memory: 8134 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/szkola/szkola wyższa/praktykisemestr/tropical-island-game-main/Game
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+60599
+Successfully changed project path to: D:/szkola/szkola wyższa/praktykisemestr/tropical-island-game-main/Game
+D:/szkola/szkola wyższa/praktykisemestr/tropical-island-game-main/Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17856] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 2103593579 [EditorId] 2103593579 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SO6R3VQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17856] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 2103593579 [EditorId] 2103593579 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SO6R3VQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Refreshing native plugins compatible for Editor in 8.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path D:/Program Files/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/szkola/szkola wyższa/praktykisemestr/tropical-island-game-main/Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.3623
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+Initialize mono
+Mono path[0] = 'D:/Program Files/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004700 seconds.
+- Loaded All Assemblies, in  0.378 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.287 seconds
+Domain Reload Profiling: 665ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (288ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (222ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.657 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.625 seconds
+Domain Reload Profiling: 1281ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (148ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (626ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (29.6 KB). Loaded Objects now: 3624.
+Memory consumption went from 156.3 MB to 156.3 MB.
+Total: 2.700200 ms (FindLiveObjects: 0.323300 ms CreateObjectMapping: 0.240600 ms MarkObjects: 2.088600 ms  DeleteObjects: 0.046900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MouseLook.cs: 02bafd22af827e561c2131ae88bbd075 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 803129.409066 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts
+  artifactKey: Guid(8178f1e4153501f439c12bea888d770a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts using Guid(8178f1e4153501f439c12bea888d770a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdec34ac77a74d51fda86e10eed5a38') in 0.002852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.110240 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts/Hut_01.prefab
+  artifactKey: Guid(6dd298b22cad93847a516af0721a8d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts/Hut_01.prefab using Guid(6dd298b22cad93847a516af0721a8d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b6b3e60efe8bfcb2a551ba860338db') in 0.111553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 7.363377 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts/Kit
+  artifactKey: Guid(315db3b37e0908d448547243ba68b740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts/Kit using Guid(315db3b37e0908d448547243ba68b740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbe9ad01941eccaffa7c1fc3f60e988') in 0.000655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051881 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts/Kit/Kit_Fence_01.prefab
+  artifactKey: Guid(e91c7a094b1d757479c6da41d347d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts/Kit/Kit_Fence_01.prefab using Guid(e91c7a094b1d757479c6da41d347d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a899605e1255e83a04e98a5e176b10e') in 0.007557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006401 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts/Kit/Kit_GroundMiddle_01.prefab
+  artifactKey: Guid(715f25a1a4d00af4db28adda6f65a566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts/Kit/Kit_GroundMiddle_01.prefab using Guid(715f25a1a4d00af4db28adda6f65a566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33562a2733ce5fc58182805afba46113') in 0.008860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002869 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts/Kit/Kit_GroundSide_Left.prefab
+  artifactKey: Guid(a1607b6ba112b1e49bedf02ad582bf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts/Kit/Kit_GroundSide_Left.prefab using Guid(a1607b6ba112b1e49bedf02ad582bf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2173923f72c14f5e25af2e602b9a3bb') in 0.008344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002739 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts/Kit/Kit_Pillar_01.prefab
+  artifactKey: Guid(8077e9513580969459e665b9fa9b7303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts/Kit/Kit_Pillar_01.prefab using Guid(8077e9513580969459e665b9fa9b7303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfdc1dff4d503b619447bc38b888e25') in 0.006603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.009949 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts/Kit/Kit_PillarFence_01.prefab
+  artifactKey: Guid(51d27256804993546b232c4cde7bcee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts/Kit/Kit_PillarFence_01.prefab using Guid(51d27256804993546b232c4cde7bcee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9137b12d4814fe62e6532b66643886') in 0.059607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.008526 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts/Kit/Kit_RoofSide_01.prefab
+  artifactKey: Guid(e9567b13019a3404f8a53eb5fe6fd371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts/Kit/Kit_RoofSide_01.prefab using Guid(e9567b13019a3404f8a53eb5fe6fd371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932c180c8f602db1fedbf4626da3325d') in 0.006267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003580 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts/Kit/Kit_RoofTop_1x1.prefab
+  artifactKey: Guid(4a9c52203ae493f4c8c4a6b29465c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts/Kit/Kit_RoofTop_1x1.prefab using Guid(4a9c52203ae493f4c8c4a6b29465c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e373d1791782cfd0150190edd0381c5c') in 0.006528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.009601 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts/Kit/Kit_RoofTop_1x2.prefab
+  artifactKey: Guid(aaa94575be5dda44b8ad2d88503a175c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts/Kit/Kit_RoofTop_1x2.prefab using Guid(aaa94575be5dda44b8ad2d88503a175c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccee2fc9ee1c607ef6201bae1a9350f3') in 0.006733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.008195 seconds.
+  path: Assets/BeachBuildings/Prefab/Huts/Kit/Kit_RoofTop_2x2.prefab
+  artifactKey: Guid(5d05ca26664b0a441add6a56b3bfbe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Huts/Kit/Kit_RoofTop_2x2.prefab using Guid(5d05ca26664b0a441add6a56b3bfbe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6021e6b865c825b567bf06a2f40cbeb') in 0.007679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.192676 seconds.
+  path: Assets/BeachBuildings/Prefab/Rattan
+  artifactKey: Guid(920e5fb5b496bc8439f4caf873756267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Rattan using Guid(920e5fb5b496bc8439f4caf873756267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf8bd925034243a641e7237c38b3f99') in 0.000849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.074797 seconds.
+  path: Assets/BeachBuildings/Prefab/Rattan/Rattan_BeachUnmbrella_01.prefab
+  artifactKey: Guid(2dad1383b9a00dc43b32cf135b2431f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Rattan/Rattan_BeachUnmbrella_01.prefab using Guid(2dad1383b9a00dc43b32cf135b2431f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afef1c411f98a4936c04dc5e61e45929') in 0.011701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.004241 seconds.
+  path: Assets/BeachBuildings/Prefab/Rattan/Rattan_Chair_04.prefab
+  artifactKey: Guid(99b29fa09a4facc4faca87cace40f8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Rattan/Rattan_Chair_04.prefab using Guid(99b29fa09a4facc4faca87cace40f8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a287367408ee71d43d11c75603ba7a4') in 0.007346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.046404 seconds.
+  path: Assets/BeachBuildings/Prefab/Rattan/Rattan_Sofa_02.prefab
+  artifactKey: Guid(1eb5f9cc58a679e4bb3c35027d8bcbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Rattan/Rattan_Sofa_02.prefab using Guid(1eb5f9cc58a679e4bb3c35027d8bcbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00254c740b2cfd6c21bc87686a492347') in 0.013133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.850210 seconds.
+  path: Assets/BeachBuildings/Prefab/Props
+  artifactKey: Guid(de9c8defa2ee74a4f8cc30741207a025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Props using Guid(de9c8defa2ee74a4f8cc30741207a025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33d1b68375a12092d6612c13da91e17') in 0.000627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.213294 seconds.
+  path: Assets/BeachBuildings/Prefab/Props/Boat_01.prefab
+  artifactKey: Guid(d3e42db2786f75846b8f64ecd80e475a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Props/Boat_01.prefab using Guid(d3e42db2786f75846b8f64ecd80e475a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d836f2140f97042c604cb15fd1d9369') in 0.005982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.011491 seconds.
+  path: Assets/BeachBuildings/Prefab/Props/Deck_01.prefab
+  artifactKey: Guid(f375cab1b88796e49b01ed281e2e4417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Props/Deck_01.prefab using Guid(f375cab1b88796e49b01ed281e2e4417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee9ab8cff1ff7b86da136b8cb35d6dc') in 0.056321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BeachBuildings/Prefab/Props/Hammock_01.prefab
+  artifactKey: Guid(578a745145b891646b37ee69680dee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Props/Hammock_01.prefab using Guid(578a745145b891646b37ee69680dee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1eea1720d528156a010d5d1c6324f94') in 0.006013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.091024 seconds.
+  path: Assets/BeachBuildings/Prefab/Props/Torch_01_Unlit.prefab
+  artifactKey: Guid(96c8531abcc08ea4990c6d1e347860e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Props/Torch_01_Unlit.prefab using Guid(96c8531abcc08ea4990c6d1e347860e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd781467fb36633523fea4ba3d58c6e3e') in 0.010265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.024485 seconds.
+  path: Assets/BeachBuildings/Prefab/Props/Torch_02.prefab
+  artifactKey: Guid(550bb7864b0e7c14aa72d915e763f2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Props/Torch_02.prefab using Guid(550bb7864b0e7c14aa72d915e763f2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e104bc526a638e37ac23c4e61bb7b6d') in 0.006015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.028784 seconds.
+  path: Assets/BeachBuildings/Prefab/Props/Torch_02_Unlit.prefab
+  artifactKey: Guid(40442d29bd679624eb065b5faf4ae1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Prefab/Props/Torch_02_Unlit.prefab using Guid(40442d29bd679624eb065b5faf4ae1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143621624e02f16a0323ef308ebf554e') in 0.009424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 15.976700 seconds.
+  path: Assets/BeachBuildings/Textures
+  artifactKey: Guid(d0d2560d8531c2e45abece610a477f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Textures using Guid(d0d2560d8531c2e45abece610a477f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eead102e37a77d8c593ed9e702aa536') in 0.000576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103787 seconds.
+  path: Assets/BeachBuildings/Textures/NewBrush.brush
+  artifactKey: Guid(1002ac29072fbc8469c102a7c50ea2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BeachBuildings/Textures/NewBrush.brush using Guid(1002ac29072fbc8469c102a7c50ea2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6796279d9daa2693c6d7d5153704bd1') in 0.166239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
