@@ -9,7 +9,6 @@ Unity Tropical Island Game
 ![Unity](https://img.shields.io/badge/unity-000.svg?style=flat&logo=unity)
 ![UnityScript](https://img.shields.io/badge/unityscript-000.svg?style=flat&logo=unity)
 ![Unity UI](https://img.shields.io/badge/unity%20ui-000.svg?style=flat&logo=unity)
-![License](https://img.shields.io/github/license/DevDJpl/tropical-island-game.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/DevDJpl/tropical-island-game/master/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/DevDJpl/tropical-island-game.svg)](https://github.com/DevDJpl/tropical-island-game/graphs/contributors)
 [![New Modules Issues](https://img.shields.io/github/issues/DevDJpl/tropical-island-game/New%20Modules.svg?label=new%20modules)](https://github.com/DevDJpl/tropical-island-game/labels/New%20Modules)
