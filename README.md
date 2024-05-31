@@ -24,11 +24,11 @@ Unity Tropical Island Game
 ## Installation
 
 ## Usage
-
+<!-- 
 ## Documentaction
 
 :memo: [Project Documentaction](https://www.overleaf.com/read/vmnkdjnvndcw)
-
+-->
 ## Changelog
 
 Please see the [CHANGELOG](CHANGELOG.md) for more information about what has changed recently.
